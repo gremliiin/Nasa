@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Nasa/static/css/main.85f59fc6.chunk.css",
+    "main.js": "/Nasa/static/js/main.814dde54.chunk.js",
+    "main.js.map": "/Nasa/static/js/main.814dde54.chunk.js.map",
+    "runtime-main.js": "/Nasa/static/js/runtime-main.22c146c1.js",
+    "runtime-main.js.map": "/Nasa/static/js/runtime-main.22c146c1.js.map",
+    "static/js/2.ace0acdd.chunk.js": "/Nasa/static/js/2.ace0acdd.chunk.js",
+    "static/js/2.ace0acdd.chunk.js.map": "/Nasa/static/js/2.ace0acdd.chunk.js.map",
+    "index.html": "/Nasa/index.html",
+    "precache-manifest.2dcdd875f45ced9e131a8c7d0e72473d.js": "/Nasa/precache-manifest.2dcdd875f45ced9e131a8c7d0e72473d.js",
+    "service-worker.js": "/Nasa/service-worker.js",
+    "static/css/main.85f59fc6.chunk.css.map": "/Nasa/static/css/main.85f59fc6.chunk.css.map",
+    "static/js/2.ace0acdd.chunk.js.LICENSE.txt": "/Nasa/static/js/2.ace0acdd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Nasa/static/media/KumbhSans-Regular.d41d8cd9.ttf",
+    "static/media/cancel.svg": "/Nasa/static/media/cancel.f5561c3c.svg",
+    "static/media/left.svg": "/Nasa/static/media/left.23dea462.svg",
+    "static/media/logo.png": "/Nasa/static/media/logo.2528d18a.png",
+    "static/media/preloader.gif": "/Nasa/static/media/preloader.b781c2d2.gif",
+    "static/media/right.svg": "/Nasa/static/media/right.49b9b4e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22c146c1.js",
+    "static/js/2.ace0acdd.chunk.js",
+    "static/css/main.85f59fc6.chunk.css",
+    "static/js/main.814dde54.chunk.js"
+  ]
+}
