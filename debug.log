@@ -1,0 +1,7 @@
+[0920/201630.513:ERROR:file_io.cc(135)] WriteFile: Идет закрытие канала. (0xE8)
+[0920/204149.439:ERROR:file_io.cc(135)] WriteFile: Идет закрытие канала. (0xE8)
+[0920/210141.783:ERROR:file_io.cc(135)] WriteFile: Идет закрытие канала. (0xE8)
+[0920/211345.826:ERROR:file_io.cc(135)] WriteFile: Идет закрытие канала. (0xE8)
+[0920/211457.498:ERROR:file_io.cc(135)] WriteFile: Идет закрытие канала. (0xE8)
+[0920/211508.810:ERROR:file_io.cc(135)] WriteFile: Идет закрытие канала. (0xE8)
+[0920/211533.383:ERROR:file_io.cc(135)] WriteFile: Идет закрытие канала. (0xE8)

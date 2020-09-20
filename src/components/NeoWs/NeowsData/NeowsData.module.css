@@ -1,0 +1,75 @@
+.neowsData__container{
+    width: 1000px;
+    margin: 25px auto;
+    color: #fff;
+    text-align: center;
+}
+
+.neowsData__dateContainer{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .3);
+    margin: 25px auto 0;
+}
+
+.neowsData__dateContainer_title{
+    display: block;
+    margin: auto;
+
+}
+
+.neowsData__button_iconOne{
+    display: block;
+    position:relative;
+    width: 25px;
+    height: 5px;
+    background-color: #fff;
+    top: 20px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.neowsData__button_iconTwo{
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 5px;
+    background-color: #fff;
+    top: 15px;
+    right: 25px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.neowsData__info{
+    display: none;
+    width: 1000px;
+    padding: 20px;
+    border: solid 3px rgba(255, 255, 255, .3);
+}
+
+
+.neowsData__objects{
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+
+.neowsData__objects_name{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+    color: #EDB833;
+}
+
+.neowsData__name_change{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.neowsData__objects_id{
+    color: #ED1316;
+}

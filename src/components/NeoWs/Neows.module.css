@@ -1,0 +1,59 @@
+.neows{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.neows__container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.neows__enterData{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.neows__enterData_button{
+    display: block;
+    margin-right: 20px;
+    outline: none;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+}
+
+.neows__enterData_inputStart{
+    display: block;
+    width: 150px;
+    outline: none;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #24292E;
+    color: #fff;
+    border: 1px groove #000;
+}
+
+.neows__enterData_inputEnd{
+    display: block;
+    width: 150px;
+    outline: none;
+    text-align: center;
+    background-color: #24292E;
+    color: #fff;
+    border: 1px groove #000;
+}
+
+.neows__enterData_error{
+    display: block;
+    width: 1000px;
+    height: 10px;
+    margin-bottom: 50px;
+    color: red;
+}
