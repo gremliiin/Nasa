@@ -82,9 +82,13 @@
         color: #fff;
         font-size: 14px;
     }
+
+    .error{
+        margin-top: 60px;
+    }
 }
 
-@media (max-width: 555px) {
+@media (max-width: 580px) {
     .apod__data_blockImage{
         max-width: 250px;
         height: 150px;
@@ -98,4 +102,16 @@
         margin: 0 auto;
     }
 
+    .apod__data_video{
+        max-width: 250px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 270px) {
+    .error{
+        margin-top: 100px;
+    }
 }
