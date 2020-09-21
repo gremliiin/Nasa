@@ -1,14 +1,14 @@
 import {neowsAPI} from "../api/api";
 
-let SET_START_DATE = 'NEOWS/SET_START_DATE';
-let SET_END_DATE = 'NEOWS/SET_END_DATE';
-let SET_DATA = 'NEOWS/SET_DATA';
-let SET_IS_FETCHING = 'NEOWS/SET_IS_FETCHING';
-let SET_DISABLE_BUTTON = 'NEOWS/SET_DISABLE_BUTTON';
-let SET_RESPONSE_ERROR = 'NEOWS/SET_RESPONSE_ERROR';
+const SET_START_DATE = 'NEOWS/SET_START_DATE';
+const SET_END_DATE = 'NEOWS/SET_END_DATE';
+const SET_DATA = 'NEOWS/SET_DATA';
+const SET_IS_FETCHING = 'NEOWS/SET_IS_FETCHING';
+const SET_DISABLE_BUTTON = 'NEOWS/SET_DISABLE_BUTTON';
+const SET_RESPONSE_ERROR = 'NEOWS/SET_RESPONSE_ERROR';
 
 
-let initialState = {
+const initialState = {
     currentDate: new Date(),
     startDate: null,
     endDate: null,
@@ -19,7 +19,7 @@ let initialState = {
 };
 
 
-let NeowsReducer = (state = initialState, action) => {
+const NeowsReducer = (state = initialState, action) => {
 
     switch (action.type) {
         case SET_START_DATE:

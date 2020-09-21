@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Apod.module.css"
-import Preloader from "../common/preloader/Preloader.js";
+import Preloader from "../../common/preloader/Preloader.js";
 
 const Apod = (props) => {
 

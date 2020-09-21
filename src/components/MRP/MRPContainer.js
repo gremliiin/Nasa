@@ -9,7 +9,7 @@ import {
     setResponseError,
     setSol
 } from "../../redux/MRPReducer";
-import Preloader from "../common/preloader/Preloader";
+import Preloader from "../../common/preloader/Preloader";
 import {Route} from "react-router-dom";
 
 class MRPContainer extends React.Component {

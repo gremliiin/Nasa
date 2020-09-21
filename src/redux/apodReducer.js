@@ -11,7 +11,7 @@ const SET_ACTIVE_DATE = 'APOD/SET_ACTIVE_DATE';
 const CHECK_RESPONSE_ERROR = 'APOD/CHECK_RESPONSE_ERROR';
 const SET_STATE_BUTTON = 'APOD/SET_STATE_BUTTON';
 
-let initialState = {
+const initialState = {
     title: 'APOD(Astronomy Picture of the Day)',
     text: ' Один из самых популярных веб-сайтов НАСА - Astronomy Picture of the Day. Введите дату и получите картинку.',
     imageSrc: '',
@@ -27,7 +27,7 @@ let initialState = {
 
 };
 
-let apodReducer = (state = initialState, action) => {
+const apodReducer = (state = initialState, action) => {
     switch (action.type) {
         case SET_IMAGE_SRC:
             return {

@@ -9,7 +9,7 @@ const SET_CAMERA = 'MRP/SET_CAMERA';
 const SET_EARTH_DATE = 'MRP/SET_EARTH_DATE';
 const SET_IS_EARTH_DATE = 'MRP/SET_IS_EARTH_DATE';
 
-let initialState = {
+const initialState = {
     sol: 1000,
     camera: 'FHAZ',
     earthDate: '2015-6-3',
@@ -21,7 +21,7 @@ let initialState = {
     isEarthDate: false,
 };
 
-let MRPReducer = (state = initialState, action) => {
+const MRPReducer = (state = initialState, action) => {
     switch (action.type) {
         case SET_IS_FETCHING:
             return {
@@ -77,7 +77,7 @@ export const setCamera = (camera) => ({type: SET_CAMERA, camera});
 export const setEarthDate = (date) => ({type: SET_EARTH_DATE, date});
 export const setIsEarthDate = (bool) => ({type: SET_IS_EARTH_DATE, bool});
 
-export let getDataEarthDate = (isEarthDate, date, sol, camera) => async (dispatch) => {
+export const getDataEarthDate = (isEarthDate, date, sol, camera) => async (dispatch) => {
     dispatch(setIsFetchingAC(true));
     dispatch(setDisableButton(true));
     let data;

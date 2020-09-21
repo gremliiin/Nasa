@@ -1,5 +1,5 @@
 .neowsData__container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 25px auto;
     color: #fff;
     text-align: center;
@@ -8,7 +8,7 @@
 .neowsData__dateContainer{
     display: flex;
     justify-content: center;
-    width: 1000px;
+    max-width: 1000px;
     height: 50px;
     background-color: rgba(255, 255, 255, .3);
     margin: 25px auto 0;
@@ -22,7 +22,7 @@
 
 .neowsData__button_iconOne{
     display: block;
-    position:relative;
+    position: relative;
     width: 25px;
     height: 5px;
     background-color: #fff;
@@ -45,7 +45,7 @@
 
 .neowsData__info{
     display: none;
-    width: 1000px;
+    max-width: 1000px;
     padding: 20px;
     border: solid 3px rgba(255, 255, 255, .3);
 }
@@ -59,7 +59,7 @@
 .neowsData__objects_name{
     display: flex;
     justify-content: center;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     color: #EDB833;
 }

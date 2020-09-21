@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import classes from './MRP.module.css';
-import cancel from '../common/images/icons/cancel.svg';
-import right from '../common/images/icons/right.svg';
-import left from '../common/images/icons/left.svg';
+import cancel from '../../common/images/icons/cancel.svg';
+import right from '../../common/images/icons/right.svg';
+import left from '../../common/images/icons/left.svg';
 
 const MRPInfo = (props) => {
 

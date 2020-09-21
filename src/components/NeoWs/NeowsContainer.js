@@ -4,7 +4,7 @@ import classes from "./NeowsData/NeowsData.module.css";
 import NeowsData from "./NeowsData/NeowsData";
 import {connect} from "react-redux";
 import {getInfoThunkCreator, setEndDateAC, setStartDateAC,} from "../../redux/NeowsReducer";
-import Preloader from "../common/preloader/Preloader";
+import Preloader from "../../common/preloader/Preloader";
 
 class NeowsContainer extends React.Component {
     componentDidMount() {

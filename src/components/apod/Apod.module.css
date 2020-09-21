@@ -1,25 +1,25 @@
 .apod{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 120px;
     color: #fff;
 }
 
 .apod__container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
 
 .apod__header{
-    width: 1000px;
+    max-width: 1000px;
     height: 120px;
 }
 
 .apod__enterData{
     display: flex;
     justify-content: center;
-    width: 350px;
+    max-width: 350px;
     margin: 0 auto;
 }
 
@@ -30,13 +30,13 @@
     background-color: #000;
     border: none;
     color: #fff;
-    width: 100px;
+    max-width: 100px;
     cursor: pointer;
 }
 
 .apod__enter{
     display: block;
-    width: 150px;
+    max-width: 150px;
     outline: none;
     text-align: center;
     background-color: #24292E;
@@ -45,31 +45,57 @@
 }
 
 .apod__data{
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .apod__data_blockImage{
-    width: 800px;
+    max-width: 800px;
     height: 425px;
     margin: 0 auto;
 
 }
 
 .apod__data_image{
-    width: 800px;
+    max-width: 800px;
     height: 425px;
     margin: 0 auto;
 }
 
 .error{
-    width: 1000px;
+    max-width: 1000px;
     height: 10px;
     margin-bottom: 50px;
     color: red;
 }
 
 .apod__data_video{
-    width: 800px;
+    max-width: 800px;
     height: 425px;
     margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    .apod{
+        max-width: 100%;
+        height: 100%;
+        padding-top: 220px;
+        color: #fff;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 555px) {
+    .apod__data_blockImage{
+        max-width: 250px;
+        height: 150px;
+        margin: 0 auto;
+
+    }
+
+    .apod__data_image{
+        max-width: 250px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
 }

@@ -1,6 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import classes from "./Header.module.css";
-import logo from "../common/images/logo.png";
+import logo from "../../common/images/logo.png";
 import {NavLink} from "react-router-dom";
 
 const Header = () => {

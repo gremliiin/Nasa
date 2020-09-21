@@ -35,7 +35,7 @@ p{
 
 @font-face {
   font-family: 'Kumbh';
-  src: local('Kumbh'), url(./components/common/fonts/kumbhSans/KumbhSans-Regular.ttf) format('ttf');
+  src: local('Kumbh'), url(common/fonts/kumbhSans/KumbhSans-Regular.ttf) format('ttf');
 }
 
 body {
